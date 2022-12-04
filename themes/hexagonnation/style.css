@@ -367,3 +367,109 @@
     pointer-events: none
 }
 /*#endregion */
+
+/*#region What is this? */
+.loading-1yrGTe {
+    background-color: rgba(0,0,0,0)
+}
+
+    .loading-1yrGTe:before, .loading-1yrGTe:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border: 3px solid rgba(0,0,0,0);
+        border-radius: 50%;
+        margin: auto;
+        filter: drop-shadow(0 0 3px var(--main-color));
+        animation: cv-spin 1s ease-in-out infinite
+    }
+
+    .loading-1yrGTe:before {
+        height: 26px;
+        width: 26px;
+        border-left-color: var(--main-color);
+        border-right-color: var(--main-color)
+    }
+
+    .loading-1yrGTe:after {
+        height: 16px;
+        width: 16px;
+        border-top-color: var(--main-color);
+        border-bottom-color: var(--main-color);
+        animation-direction: reverse
+    }
+
+body, button, input, select, textarea, ::placeholder {
+    font-family: var(--main-font)
+}
+
+::selection {
+    color: #fff;
+    background: var(--main-color)
+}
+
+.notice-2HEN-u {
+    border-radius: 3px
+}
+
+    .notice-2HEN-u.colorDefault-1e8tQv {
+        background: rgba(67,181,129,.6)
+    }
+
+    .notice-2HEN-u.noticePremium-12Zvj9 {
+        background: rgba(32,34,37,.6)
+    }
+
+    .notice-2HEN-u.noticeInfo-3_iTE1 {
+        background: rgba(74,144,226,.6)
+    }
+
+    .notice-2HEN-u.noticeSuccess-3Y62ob {
+        background: rgba(67,181,129,.6)
+    }
+
+    .notice-2HEN-u.colorDanger-2YLzLC {
+        background: rgba(240,71,71,.6)
+    }
+
+    .notice-2HEN-u.colorStreamerMode-8uoRWd {
+        background: rgba(145,70,255,.6)
+    }
+
+    .notice-2HEN-u.noticeFacebook-3equ5g {
+        background: rgba(24,119,242,.6)
+    }
+
+    .notice-2HEN-u.noticeSpotify-27dhr0 {
+        background: rgba(29,185,84,.6)
+    }
+
+    .notice-2HEN-u.colorBrand1-2u_MN9 {
+        background: rgba(0,0,0,0)
+    }
+
+        .notice-2HEN-u.colorBrand1-2u_MN9:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: var(--main-color);
+            opacity: .6;
+            z-index: -1;
+            border-radius: 3px
+        }
+
+    .notice-2HEN-u .textLink-2oCmaf {
+        color: #fff
+    }
+
+    .notice-2HEN-u.notice-1x8lm- {
+        background: rgba(0,0,0,.6)
+    }
+
+/*#endregion */
