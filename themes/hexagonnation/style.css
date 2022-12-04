@@ -1,11 +1,7 @@
 
-/*Variables*/
-:root {
-    --BGpicture: url(https://i.imgur.com/Wifnjal.png);
-    --BGcolPrimary: rgb(10, 10, 10);
-    --BGcolSecondary: rgb(30, 30, 30);
-    --BGcolTertiary: rgb(40, 40, 40);
-    --sheer: rgba(0, 0, 0, 6);
-    --roundness: 50px;
+/* I. App Window */
+#app-mount,
+.container-2yBXZl,
+.perksModalContentWrapper-2HU6uL {
+    background: linear-gradient(var(--sheer), var(--sheer)),var(--BGPicture) center/30% fixed;
 }
-
