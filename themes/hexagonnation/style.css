@@ -7,13 +7,12 @@
 
 /*Variables*/
 :root {
-    --theme-name: "HeXagon Nation";
-    --theme-version: "0.0.1";
     --BGpicture: url(https://i.imgur.com/Wifnjal.png);
     --BGcolPrimary: rgb(10, 10, 10);
     --BGcolSecondary: rgb(30, 30, 30);
     --BGcolTertiary: rgb(40, 40, 40);
     --sheer: rgba(0, 0, 0, 6);
+    --roundness: 50px;
 }
 
 /* I. App Window */
