@@ -15,9 +15,3 @@
     --roundness: 50px;
 }
 
-/* I. App Window */
-#app-mount,
-.container-2RRFHK,
-.perksModalContentWrapper-2HU6uL {
-    background: linear-gradient(var(--sheer), var(--sheer)),var(--BGpicture) center/30% fixed;
-}
