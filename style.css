@@ -12,6 +12,7 @@
     --BGcolSecondary: rgb(30, 30, 30);
     --BGcolTertiary: rgb(40, 40, 40);
     --sheer: rgba(0, 0, 0, 6);
+    --roundness: 50px;
 }
 
 /* I. App Window */
