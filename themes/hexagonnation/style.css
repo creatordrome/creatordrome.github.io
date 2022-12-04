@@ -3,7 +3,7 @@
 #app-mount,
 .container-2RRFHK,
 .perksModalContentWrapper-2HU6uL {
-    background: linear-gradient(var(--sheer), var(--sheer)),var(--BGPicture) center/30% fixed;
+    background: var(--sheer), var(--sheer)),var(--BGPicture);
 }
 
     #app-mount .app-2CXKsg,
@@ -14,3 +14,30 @@
     .bg-1QIAus {
         background-color: transparent;
     }
+
+
+.appMount-2yBXZl, body, html {
+    height: 100%;
+    width: 100%
+}
+
+.appMount-2yBXZl {
+    position: absolute;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.appMount-2yBXZl, body {
+    background-color: var(--background-tertiary);
+    text-rendering: optimizeLegibility;
+}
+
+.overlay .appMount-2yBXZl, .overlay body {
+    background: transparent
+}
