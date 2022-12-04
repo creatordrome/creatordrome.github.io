@@ -1,0 +1,24 @@
+/*
+@name Hexagon Nation
+@author creatordrome
+@description Support HeXagon Nation with this theme.
+@version 0.0.1
+*/
+
+/*Variables*/
+:root {
+    --theme-name: "HeXagon Nation";
+    --theme-version: "0.0.1";
+    --BGpicture: url(https://i.imgur.com/Wifnjal.png);
+    --BGcolPrimary: rgb(10, 10, 10);
+    --BGcolSecondary: rgb(30, 30, 30);
+    --BGcolTertiary: rgb(40, 40, 40);
+    --sheer: rgba(0, 0, 0, 6);
+}
+
+/* I. App Window */
+#app-mount,
+.container-2RRFHK,
+.perksModalContentWrapper-2HU6uL {
+    background: linear-gradient(var(--sheer), var(--sheer)),var(--BGpicture) center/30% fixed;
+}
